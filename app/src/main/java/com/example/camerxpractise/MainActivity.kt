@@ -139,10 +139,7 @@ class MainActivity : AppCompatActivity() {
 
                     Log.e("Error", "data" + BitMapToString(bitmap))
 
-
-                    val bundle = Bundle()
-                    bundle.putString("image", path)
-                    Toast.makeText(baseContext, msg, Toast.LENGTH_SHORT).show()
+                     Toast.makeText(baseContext, msg, Toast.LENGTH_SHORT).show()
                     Log.d(TAG, msg)
                 }
             }
