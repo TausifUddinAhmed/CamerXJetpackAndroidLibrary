@@ -14,7 +14,7 @@
         android:layout_height="match_parent" />
 
 
-    <ImageView
+   <!-- <ImageView
         android:id="@+id/image"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
@@ -24,7 +24,7 @@
         android:layout_marginBottom="16dp"
         android:layout_height="300dp">
 
-    </ImageView>
+    </ImageView>-->
 
     <Button
         android:id="@+id/image_capture_button"

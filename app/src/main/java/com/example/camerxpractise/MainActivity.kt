@@ -119,12 +119,14 @@ class MainActivity : AppCompatActivity() {
                     val uriFilePath = output.savedUri?.path
                     val path: String = uriFilePath.toString()
 
-                    viewBinding.apply {
+                    //used for testing purpose to show image in view
+
+                    /*viewBinding.apply {
 
                         image.setImageURI(output.savedUri)
                         image.visibility = View.VISIBLE
 
-                    }
+                    }*/
 
                     val bitmap = if (Build.VERSION.SDK_INT >= Build.VERSION_CODES.P) {
                         ImageDecoder.decodeBitmap(
